@@ -1,5 +1,5 @@
-PRG            = memory-game
-OBJ            = memory-game.o
+PRG            = nomis-memory-game
+OBJ            = nomis-memory-game.o
 PROGRAMMER     = avrispv2
 PORT           = /dev/tty.usbmodem00019461
 MCU_TARGET     = attiny85

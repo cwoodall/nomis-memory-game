@@ -212,16 +212,16 @@ uint8_t led_display(uint8_t state)
 {
     switch (state) {
     case 0x01:
-        return 0x02;
+        return 0x03;
         break;
     case 0x02:
-        return 0x05;
-        break;
-    case 0x04:
         return 0x04;
         break;
+    case 0x04:
+        return 0x06;
+        break;
     case 0x08:
-        return 0x03;
+        return 0x01;
         break;
     default:
         return 0x00;
